@@ -1,0 +1,12 @@
+.support h4{
+  color:rgb(75, 69, 69);
+
+}
+.support .card{
+  background-color: rgb(161, 160, 160);
+  color: white;
+  border: 1px solid gray;
+}
+.support .navigation-item:hover{
+  background-color: rgb(87, 87, 87);
+}

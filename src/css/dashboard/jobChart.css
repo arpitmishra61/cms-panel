@@ -1,0 +1,19 @@
+.jobChart{
+  padding: 15px;
+  flex-basis: 55%;
+height: 37vh;
+  margin-top: 60px ;
+  padding-bottom: 60px;
+ 
+}
+
+.jobChart h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: tomato;
+}
+.jobChart #myChart{
+  margin-top: 20px;
+ 
+  
+}

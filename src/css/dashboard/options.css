@@ -1,0 +1,15 @@
+.options{
+  
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.options .card{
+  flex-basis: 14%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 10vh;
+  background-color: rgba(255, 206, 86, 0.2);
+  border: 1px solid rgba(255, 206, 86, 1);
+}

@@ -1,0 +1,13 @@
+.navbar{
+ padding: 20px;
+  font-size: 20px;
+  background-color: dodgerblue;
+  color: white;
+  
+  
+}
+
+.navbar i{
+  margin-right: 7px;
+  color:rgb(250, 247, 247);
+}

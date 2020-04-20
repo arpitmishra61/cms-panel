@@ -1,5 +1,10 @@
+
 import React from 'react'
+//import 'connect' to get the state of app from redux
 import { connect } from 'react-redux'
+
+//importing styles
+import "../../../css/dashboard/candidates.css"
 
 const displayUnactionCandidatesInformation = (data) => {
     console.log(data)
@@ -8,7 +13,7 @@ const displayUnactionCandidatesInformation = (data) => {
         return <div className="card ">
             <h4>{jobTitle}<span>,{"  "}{location}</span>  </h4>
 
-            <p>{unreadMessages}</p>
+            <p>unread messages:{unreadMessages}</p>
         </div>
     })
 }

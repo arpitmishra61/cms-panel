@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../../css/jobsSection/actionPanel.css'
 
 export default function ActionPanel() {
     return (

@@ -1,11 +1,15 @@
+//importing require files
 import React from 'react'
+import "../../css/navigation/navigation.css"
 import { Link } from 'react-router-dom'
-const changeNavigationLink = (e) => {
-    if (!e.target.classList.contains("active-nav")) {
-        document.querySelectorAll(".navigation-item").forEach(navItem => navItem.classList.remove("active-nav"))
-        e.target.classList.add("active-nav")
-    }
-}
+
+//importing dependent components
+import Support from './Support'
+
+//importing helper functions
+import changeNavigationLink from './helpers/changeNavigationLink'
+
+//Navigation Component
 export default function Navigation() {
     return (
         <div className="card navigation columnFlex" onClick={
@@ -22,12 +26,7 @@ export default function Navigation() {
             <div className="card navigation-item">Reports</div>
             <br />
             <hr />
-            <div className="support">
-                <h4>Support</h4>
-                <div className="card navigation-item">Help Desk</div>
-                <div className="card navigation-item">Tutorial</div>
-                <div className="card navigation-item">Feedback</div>
-            </div>
+            <Support />
 
         </div>
     )

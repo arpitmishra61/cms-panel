@@ -1,5 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import '../../../css/dashboard/recruitment.css'
 
 
 const displayRecruitmentInformation = (data) => {

@@ -1,0 +1,51 @@
+body{
+ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  background-color: rgb(245, 244, 244);
+}
+
+.card{
+ padding-left: 20px;
+ padding-right: 20px;
+  background-color: white;
+  border: 1px solid lightgray;
+
+}
+
+
+.centerFlex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+
+.ml-auto{
+  margin-left: auto;
+}
+.columnFlex{
+  display: flex;
+
+  flex-direction: column;
+  
+  
+  
+}
+i{
+  cursor: pointer;
+}
+
+*{
+  margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+.m-auto{
+margin: auto;
+}

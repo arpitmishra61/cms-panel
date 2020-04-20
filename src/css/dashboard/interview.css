@@ -1,0 +1,36 @@
+.interview{
+  padding: 15px;
+  flex-basis: 35%;
+  height: inherit;
+}
+
+.interview h3{
+  color:rgb(207, 195, 19)
+}
+
+.interview .card{
+  margin-top: 5px;
+  padding: 15px;
+  background-color: rgb(255, 255, 176);
+  border: 1px solid rgb(243, 231, 58);
+}
+
+.interview .card .detail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   text-transform: capitalize;
+}
+
+
+.interview .card .detail p{
+  font-size: 13px;
+  color: gray;
+
+}
+
+.interview .card p{
+  font-size: 13px;
+    text-transform: capitalize;
+    color: gray;
+}

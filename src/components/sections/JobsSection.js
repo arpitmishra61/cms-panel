@@ -1,6 +1,8 @@
 import React from 'react'
-import JobDetails from './jobsSection/JobDetails'
-import ActionPanel from './jobsSection/ActionPanel'
+
+//Child Components
+import JobDetails from '../sectionsDetail/jobsSection/JobDetails'
+import ActionPanel from '../sectionsDetail/jobsSection/ActionPanel'
 
 export default function JobsSection() {
     return (

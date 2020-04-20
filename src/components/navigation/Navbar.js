@@ -1,5 +1,8 @@
+//importing require files
 import React from 'react'
+import "../../css/navigation/navbar.css"
 
+//Navbar Component
 export default function Navbar() {
     return (
         <div className="navbar card centerFlex">

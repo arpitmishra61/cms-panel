@@ -1,5 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import "../../../css/dashboard/options.css"
+
+
 const displayOptionalDetails = (data) => {
     return data.options.map(option => {
         const { title, value } = option

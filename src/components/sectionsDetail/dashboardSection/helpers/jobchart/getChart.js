@@ -1,5 +1,7 @@
-import React, { useEffect } from 'react'
+//To use chart library
 import Chart from 'chart.js';
+
+//function to render chart
 const getChart = () => {
     var ctx = document.getElementById('myChart').getContext('2d');
     new Chart(ctx, {
@@ -60,16 +62,4 @@ const getChart = () => {
     });
 }
 
-export default function JobChart() {
-    useEffect(() => {
-        getChart()
-    }, [])
-    return (
-        <div className="jobChart card">
-            <h3>Offer Acceptance Rate By Department</h3>
-            <hr />
-            <canvas id="myChart" height="130vh" ></canvas>
-
-        </div>
-    )
-}
+export default getChart

@@ -1,0 +1,21 @@
+.jobsSection .actionPanel{
+  height:85%;
+  flex-basis: 5%;
+  background-color: aliceblue;
+  justify-content: flex-start;
+
+  
+}
+
+.actionPanel .actionIcons{
+ 
+  align-items: center;
+  margin-top: 10px;
+  height: 95%;
+ 
+ 
+
+}
+.actionPanel i{
+  height: 40px;
+}

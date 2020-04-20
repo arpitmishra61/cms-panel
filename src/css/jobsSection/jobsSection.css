@@ -1,0 +1,42 @@
+.jobsSection{
+  flex-basis: 72%;
+ 
+  
+  
+  height: 80vh;
+    padding-bottom: 0px;
+  
+}
+
+.jobsSection .jobDetail{
+  width: 25%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(228, 253, 229, 0.932);
+  color:rgb(97, 95, 95);
+  border: 1px solid rgb(27, 219, 27);
+  
+  
+}
+
+.jobDetail .part{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.jobsSection .jobDetails{
+  flex-basis: 90%;
+  display: flex !important;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-transform: capitalize;
+  
+
+}
+
+.jobDetail .part h4, .jobDetail .part p, p {
+  margin-bottom: 15px;
+}

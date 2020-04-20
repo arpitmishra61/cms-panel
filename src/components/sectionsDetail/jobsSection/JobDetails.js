@@ -1,5 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import "../../../css/jobsSection/jobsSection.css"
+
 const displayJobs = (data) => {
     return data.jobs.map(job => {
         const { jobTitle, location, screen, offer, rejected, onhoalds, candidate, status } = job
