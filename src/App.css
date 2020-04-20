@@ -37,7 +37,7 @@ body{
 .ml-auto{
   margin-left: auto;
 }
-.cloumnFlex{
+.columnFlex{
   display: flex;
 
   flex-direction: column;
@@ -47,7 +47,7 @@ body{
 }
 .showcase{
  
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start !important;
   margin-top: 10px;
   
@@ -64,30 +64,117 @@ body{
  border-radius: 50px;
  margin-top: 10px;
  display: flex;
- background-color: rgb(238, 173, 113);
- color:white;
- border: 1px solid brown;
- 
+ background-color: rgb(247, 218, 192);
+ color:rgb(107, 101, 101);
+ border: 1px solid rgb(240, 198, 134);
+ cursor: pointer;
  flex-direction: column;
  justify-content: center;
  
 }
-.others{
-  flex-basis: 76%;
-  padding-top: 10px;
+ .active-nav{
+  background-color:  rgb(250, 198, 121) !important;
+ 
+}
+.support .active-nav{
+  background-color: rgb(110, 106, 106) !important;
+}
+.navigation a{
+  text-decoration: none;
+}
+ .navigation-item:hover{
+   background-color: rgb(240, 198, 134);
+  zoom: 1.05;
+ }
+.others, .jobsSection{
+  flex-basis: 72%;
+ 
   padding-bottom: 30px;
-  height: 105vh;
-
-  
+  height: 115vh;
   
 }
 
+.jobsSection{
+  
+   height: 80vh;
+    padding-bottom: 0px;
+  
+}
+.jobsSection .jobDetail{
+  width: 25%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(228, 253, 229, 0.932);
+  color:rgb(97, 95, 95);
+  border: 1px solid rgb(27, 219, 27);
+  
+  
+}
+i{
+  cursor: pointer;
+}
+.jobsSection .jobDetails{
+  flex-basis: 90%;
+  display: flex !important;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-transform: capitalize;
+  
+
+}
+
+
+.actionPanel .actionIcons{
+ 
+  align-items: center;
+  margin-top: 10px;
+  height: 95%;
+ 
+ 
+
+}
+.actionPanel i{
+  height: 40px;
+}
+.jobDetail .part{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.m-auto{
+margin: auto;
+}
+.jobsSection .actionPanel{
+  height:85%;
+  flex-basis: 5%;
+  background-color: aliceblue;
+  justify-content: flex-start;
+
+  
+}
+.jobDetail .part h4, .jobDetail .part p, p {
+  margin-bottom: 15px;
+}
 .navigation h4{
   margin-top: 10px;
   margin-bottom: 10px;
   color:peru
 }
 
+.support h4{
+  color:rgb(75, 69, 69);
+
+}
+.support .card{
+  background-color: rgb(161, 160, 160);
+  color: white;
+  border: 1px solid gray;
+}
+.support .navigation-item:hover{
+  background-color: rgb(87, 87, 87);
+}
 .options{
   
   justify-content: space-evenly;
@@ -169,6 +256,20 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+   text-transform: capitalize;
+}
+
+
+.interview .card .detail p{
+  font-size: 13px;
+  color: gray;
+
+}
+
+.interview .card p{
+  font-size: 13px;
+    text-transform: capitalize;
+    color: gray;
 }
 
 .others .section-2{
@@ -237,23 +338,8 @@ height: 37vh;
 .recruitment .card{
   background-color: rgb(228, 173, 230);
 }
-.recruitment .percentage-1{
-  width:100%; 
-margin: auto;
-}
-
-.recruitment .percentage-2{
-  width:65%; 
-margin: auto;
-}
-
-.recruitment .percentage-3{
-  width:47%;
+.recruitment .completion{
   margin: auto;
-
+  text-align: center;
 }
-.recruitment .percentage-4{
-  width:40%; 
-  margin: auto;
 
-}
